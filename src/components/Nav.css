@@ -9,7 +9,8 @@
 
 .logo {
     cursor: pointer;
-    margin-right: auto;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
 .navigation {
@@ -27,6 +28,8 @@ li, a {
 
 .nav-links {
     list-style: none;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 .nav-links li {
