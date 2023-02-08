@@ -1,12 +1,13 @@
 import React from 'react'
 import './Nav.css'
 import logo from '../Images/logo.svg'
+
 function Nav(){
     return (
-        <div className="navbar">
+        <div>
             <header>
-                <img src={logo} alt="logo" className="logo"/>
-                <nav>
+                <nav className="navbar fixed-top bg-dark">
+                    <img src={logo} alt="logo" className="logo"/>
                     <ul className="nav-links">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Projects</a></li>

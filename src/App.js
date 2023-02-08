@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav'
 import Carousel from './components/Carousel'
-import Intro from './components/Intro'
+import Introduction from './components/Intro'
 
 function App() {
   return (
     <>
     <Nav/>
     <Carousel/>
-    <Intro/>
+    <Introduction/>
     <div>body</div>
     <div>footer</div>
     </>
