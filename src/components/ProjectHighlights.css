@@ -1,0 +1,41 @@
+.Project-Card {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background: lightblue;
+    overflow: hidden;
+    height: 34.375rem;
+}
+
+.Project-Slider {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+  .slick-list {
+    margin: 0 -10px;
+}
+
+.Card-image {
+    height: 16rem;
+    width: 16rem;
+}
+
+.Card-Top img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Card-Top h2 {
+    margin: 30px 20px;
+    color: black;
+}
+
+.Card-Description {
+    margin: 15px 20px;
+    color: black;
+}
