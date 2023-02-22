@@ -1,6 +1,6 @@
 import React from 'react';
 import banner from '../Images/about-banner1.webp'
-import './intro.css'
+import './Introduction.css'
 function Intro(){
     return (
         <div className="intro">

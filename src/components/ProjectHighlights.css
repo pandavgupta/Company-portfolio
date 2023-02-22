@@ -1,7 +1,7 @@
 .Project-Card {
     border: 1px solid #ffffff;
     border-radius: 8px;
-    background: lightblue;
+    background-color: lightgray;
     overflow: hidden;
     height: 34.375rem;
 }

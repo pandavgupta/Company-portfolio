@@ -1,0 +1,29 @@
+.services {
+    margin: 4rem 4rem;
+}
+
+.service-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    display: inline-flex;
+}
+
+.service-box {
+    border-radius: 10px;
+    width: 100%;
+    background-color: transparent;
+    padding: 50px;
+    transition: .25s ease;
+}
+
+.service-box:hover {
+    transform: scale(1.1);
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+
+.service-box:hover .service-icon {
+    color: #ffffff;
+}
+

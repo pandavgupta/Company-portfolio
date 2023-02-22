@@ -1,8 +1,9 @@
 import './App.css';
 import Nav from './components/Nav'
 import Carousel from './components/Carousel'
-import Introduction from './components/Intro'
+import Introduction from './components/Introduction'
 import ProjectHighlights from './components/ProjectHighlights'
+import Services from './components/Services'
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
     <Carousel/>
     <Introduction/>
     <ProjectHighlights/>
-    <div>body</div>
-    <div>footer</div>
+    <Services/>
     </>
   );
 }
