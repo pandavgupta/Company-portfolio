@@ -1,0 +1,51 @@
+.footer{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+.footer-logo > img{
+    width: 16em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-list{
+    list-style: none;
+}
+.contact-info li{
+    margin: 0.5rem 0rem;
+}
+.divider1{
+    width: 7rem;
+    height: 0.1rem;
+    margin: 1rem 1rem 1.3rem 0rem;
+    background-color: blue;
+}
+.footer-bottom{
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color: aliceblue;
+}
+.divider2{
+    width: 80%;
+    height: 0.1rem;
+    margin: 1rem 1rem 1.3rem 0rem;
+    background-color: grey;
+}
+.copyright{
+    margin: 2rem 1rem 1rem 1rem;
+    text-decoration-color: rgb(238, 235, 235);
+    justify-content: center;
+}

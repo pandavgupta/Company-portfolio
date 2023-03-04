@@ -1,10 +1,15 @@
-.Project-Card {
+/* .Project-Card {
+    margin: 2rem;
+    padding: 2rem 2rem 2rem 4rem;
     border: 1px solid #ffffff;
     border-radius: 8px;
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-    height: 34.375rem;
-}
+} */
 
 .Project-Slider {
     width: 90%;
@@ -18,24 +23,14 @@
   .slick-list {
     margin: 0 -10px;
 }
+/* .Project-Card img {
+    width: 20rem;
+} */
 
-.Card-image {
-    height: 16rem;
-    width: 16rem;
-}
 
-.Card-Top img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
 
-.Card-Top h2 {
-    margin: 30px 20px;
-    color: black;
-}
-
+/* 
 .Card-Description {
     margin: 15px 20px;
     color: black;
-}
+} */

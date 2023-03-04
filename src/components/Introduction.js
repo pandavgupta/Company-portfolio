@@ -1,6 +1,7 @@
 import React from 'react';
 import banner from '../Images/about-banner1.webp'
 import './Introduction.css'
+import Button from '@mui/material/Button';
 function Intro(){
     return (
         <div className="intro">
@@ -17,7 +18,7 @@ function Intro(){
                 also demonstrating strong presence in refineries, petrochemical plants. We leverage our domain knowledge 
                 across various business segments to address the shift to clean energy to meet the nation’s Net Zero ambitions.
                 </div>
-                <button className='know-more'>Know more</button>
+                <Button variant='contained' className='know-more' >Know more</Button>
             </div>
         </div>
     );
